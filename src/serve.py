@@ -20,7 +20,7 @@ ARTIFACT_DIR = Path(__file__).resolve().parent.parent / "artifacts"
 RETRIEVAL_K = 50
 FINAL_K = 10
 
-app = FastAPI(title="recsys-mvp")
+app = FastAPI(title="yggdrasil")
 
 with open(ARTIFACT_DIR / "meta.json") as f:
     META = json.load(f)

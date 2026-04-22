@@ -1,4 +1,4 @@
-# recsys-mvp
+# Yggdrasil
 
 Two-stage recommender (retrieval + ranking) on MovieLens-100k, served over FastAPI.
 
